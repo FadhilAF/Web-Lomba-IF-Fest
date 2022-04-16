@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.navbar .logo {
+	font-size: 2rem;
+	font-weight: 700;
+	color: black;
+}
+.navbar .logo span {
+	color: #16e72a;
+}
+.nav-links {
+	display: flex;
+	gap: 3rem;
+}
+.nav-links a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.unesco img {
+	width: 75px;
+	height: auto;
+}
