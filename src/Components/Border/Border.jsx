@@ -22,7 +22,7 @@ const Border = () => {
     const spriteHeight = 100;
     const spriteRatio = 230/535;
     const spriteWidth = spriteHeight * spriteRatio;
-    const spriteTotalWidth = Math.floor(windowWidth/(spriteWidth * 2)) * (spriteWidth * 2);
+    const spriteTotalWidth = Math.floor((windowWidth - 20)/spriteWidth) * spriteWidth;
 
 
     return (
