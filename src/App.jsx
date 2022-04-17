@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import styles from "./App.module.css";
 import Header from "./Components/Header/Header";
-import About from "./Pages/FolkLore/FolkLore";
+import Culinary from "./Pages/Culinary/Culinary";
 import Home from "./Pages/Home/Home";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
 			<Header />
 			<Routes>
 				<Route exact path="/" element={<Home />} />
-				<Route path="/folklore" element={<About />} />
+				<Route path="/culinary" element={<Culinary />} />
 			</Routes>
 		</div>
 	);

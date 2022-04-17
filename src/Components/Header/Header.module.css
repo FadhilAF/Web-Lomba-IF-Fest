@@ -1,17 +1,26 @@
+.container {
+	position: absolute;
+	width: 100%;
+}
 .navbar {
+	background: rgba(50, 50, 50, 0.2);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem;
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	padding: 2rem 5rem;
 }
 .navbar .logo {
 	font-size: 2rem;
 	font-weight: 700;
-	color: black;
+	color: white;
+}
+.navbar .logo a {
+	text-decoration: none;
+	color: white;
 }
 .navbar .logo span {
-	color: #16e72a;
+	color: black;
+	text-shadow: 2px 2px 2px white;
 }
 .nav-links {
 	display: flex;
@@ -19,11 +28,11 @@
 }
 .nav-links a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 1.2rem;
 }
 .unesco img {
-	width: 75px;
+	width: 100px;
 	height: auto;
 }
