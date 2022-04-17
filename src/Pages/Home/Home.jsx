@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,12 +39,26 @@ const Home = () => {
 				</div>
 			</section>
 			<section className={styles.categories}>
-				<div className={styles.category} data-aos="fade-right">
-					<h2>Customs & Tradition</h2>
-				</div>
-				<div className={styles.category} data-aos="fade-left">
-					<h2>Culinary</h2>
-				</div>
+				<Link to={"/customs"}>
+					<div
+						className={`${styles.category} ${styles.custom}`}
+						data-aos="fade-right"
+					>
+						<div className={styles.categoryTitle}>
+							<h2>Customs & Tradition</h2>
+						</div>
+					</div>
+				</Link>
+				<Link to={"/culinary"}>
+					<div
+						className={`${styles.category} ${styles.culinary}`}
+						data-aos="fade-left"
+					>
+						<div className={styles.categoryTitle}>
+							<h2>Culinary</h2>
+						</div>
+					</div>
+				</Link>
 			</section>
 		</div>
 	);
