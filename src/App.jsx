@@ -4,6 +4,7 @@ import styles from "./App.module.css";
 import Header from "./Components/Header/Header";
 import Culinary from "./Pages/Culinary/Culinary";
 import Home from "./Pages/Home/Home";
+import Border from "./Components/Border/Border"
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
 				<Route exact path="/" element={<Home />} />
 				<Route path="/culinary" element={<Culinary />} />
 			</Routes>
+			<Border />
 		</div>
 	);
 }
