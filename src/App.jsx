@@ -7,7 +7,6 @@ import Home from "./Pages/Home/Home";
 import Border from "./Components/Border/Border"
 
 function App() {
-	const [count, setCount] = useState(0);
 
 	return (
 		<div className={styles.App}>
