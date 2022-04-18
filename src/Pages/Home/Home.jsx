@@ -32,7 +32,6 @@ AOS.init({
 });
 
 const Home = () => {
-
 	return (
 		<div>
 			<section className={styles.hero}>

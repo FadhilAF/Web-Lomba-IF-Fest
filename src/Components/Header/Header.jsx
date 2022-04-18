@@ -2,9 +2,13 @@ import React from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
 	return (
-		<div className={styles.container}>
+		<div
+			className={`${styles.container} ${
+				props.path !== "/" && styles["home-container"]
+			}`}
+		>
 			<nav className={styles.navbar}>
 				<div className={styles.logo}>
 					<Link to={"/"}>
@@ -12,6 +16,9 @@ const Header = () => {
 					</Link>
 				</div>
 				<div className={styles["nav-links"]}>
+					<div>
+						<Link to={"/"}>Home</Link>
+					</div>
 					<div>
 						<Link to={"/customs"}>Customs</Link>
 					</div>
