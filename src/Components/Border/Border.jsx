@@ -17,8 +17,10 @@ function useWindowSize() {
 }
 
 const Border = () => {
-    const [windowWidth, windowHeight] = useWindowSize();
+    let [windowWidth, windowHeight] = useWindowSize();
     
+    if (windowWidth < 320) windowWidth = 320;
+
     const spriteHeight = 100;
     const spriteRatio = 460/535;
     const spriteWidth = spriteHeight * spriteRatio;
