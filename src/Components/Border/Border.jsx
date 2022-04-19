@@ -20,9 +20,9 @@ const Border = () => {
     const [windowWidth, windowHeight] = useWindowSize();
     
     const spriteHeight = 100;
-    const spriteRatio = 230/535;
+    const spriteRatio = 460/535;
     const spriteWidth = spriteHeight * spriteRatio;
-    const spriteTotalWidth = Math.floor((windowWidth - 20)/spriteWidth) * spriteWidth;
+    const spriteTotalWidth = Math.floor((windowWidth - 16)/spriteWidth) * spriteWidth;
 
 
     return (

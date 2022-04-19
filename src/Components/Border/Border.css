@@ -5,7 +5,7 @@
 }
 
 .sprite {
-    background-image: url(./spritePerisai.png);
+    background-image: url(../../Assets/spritePerisai.png);
     background-repeat: repeat-x;
     background-position: center;
     margin: auto;
