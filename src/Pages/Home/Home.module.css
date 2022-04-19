@@ -16,7 +16,7 @@
 .categories {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	height: 60vh;
+	height: 50vw;
 	overflow-x: hidden;
 }
 .categories .category {
@@ -24,7 +24,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
-	height: 500px;
+	height: 100%;
 }
 .category .categoryTitle {
 	display: flex;
@@ -59,8 +59,21 @@
 	background-position: center;
 	background-size: cover;
 }
+@media screen and (min-width: 57rem) {
+	.categories {
+		height: 60vh;
+	}
+}
 @media screen and (max-width: 48rem) {
 	.title h1 {
 		font-size: 5rem;
+	}
+	.category .categoryTitle h2 {
+		font-size: 2rem;
+	}
+}
+@media screen and (max-width: 25rem) {
+	.category .categoryTitle h2 {
+		font-size: 1rem;
 	}
 }
