@@ -1,3 +1,4 @@
+import Hero from "../../Components/Hero/Hero";
 import styles from "./CustomsTraditions.module.css";
 import honaiImage from "../../Assets/honai.jpg";
 
