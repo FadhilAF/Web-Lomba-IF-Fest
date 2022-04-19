@@ -7,7 +7,7 @@ import Border from "./Components/Border/Border";
 
 import Home from "./Pages/Home/Home";
 import Culinary from "./Pages/Culinary/Culinary";
-import CustomsTradition from "./Pages/CustomsTradition/CustomsTradition";
+import CustomsTradition from "./Pages/CustomsTraditions/CustomsTraditions";
 
 function App() {
 	const location = useLocation();
