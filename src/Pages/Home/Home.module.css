@@ -16,6 +16,7 @@
 .categories {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	height: 60vh;
 	overflow-x: hidden;
 }
 .categories .category {
@@ -57,4 +58,9 @@
 	background: url("../../Assets/culinary.jpg");
 	background-position: center;
 	background-size: cover;
+}
+@media screen and (max-width: 48rem) {
+	.title h1 {
+		font-size: 5rem;
+	}
 }
