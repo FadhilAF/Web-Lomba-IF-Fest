@@ -6,8 +6,8 @@ import Header from "./Components/Header/Header";
 import Border from "./Components/Border/Border";
 
 import Home from "./Pages/Home/Home";
-import Culinary from "./Pages/Culinary/Culinary";
-import CustomsTradition from "./Pages/CustomsTraditions/CustomsTraditions";
+import Culinary from "./Pages/Contents/Culinary/Culinary";
+import CustomsTradition from "./Pages/Contents/CustomsTraditions/CustomsTraditions";
 
 function App() {
 	const location = useLocation();

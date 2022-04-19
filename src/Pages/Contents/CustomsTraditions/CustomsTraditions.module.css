@@ -1,0 +1,12 @@
+.honai {
+	background: url("../../../Assets/rumahHonai.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.cendrawasih {
+	background: url("../../../Assets/cendrawasih.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

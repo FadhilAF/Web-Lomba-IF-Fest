@@ -1,0 +1,12 @@
+.papeda {
+	background: url("../../../Assets/papeda.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.caterpillar {
+	background: url("../../../Assets/caterpillar.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,16 +1,15 @@
-import Hero from "../../Components/Hero/Hero";
-import styles from "./CustomsTraditions.module.css";
-import honaiImage from "../../Assets/honai.jpg";
+import contentsStyles from "../Contents.module.css";
+import traditionStyles from "./CustomsTraditions.module.css";
 
 const CustomsTraditions = () => {
 	return (
 		<div>
-			<section className={`${styles.content} ${styles.honai}`}>
-				<div className={styles.hero}>
-					<div className={styles.heroTitle}>
+			<section className={`${contentsStyles.content} ${traditionStyles.honai}`}>
+				<div className={contentsStyles.hero}>
+					<div className={contentsStyles.heroTitle}>
 						<h2>Honai House</h2>
 					</div>
-					<div className={styles.heroContent}>
+					<div className={contentsStyles.heroContent}>
 						<p>
 						Papua's home Honai typical inhabited by the
 						Dani. Honai houses made of wood with a conical
@@ -65,12 +64,12 @@ const CustomsTraditions = () => {
 					</div>
 				</div>
 			</section>
-			<section className={`${styles.content} ${styles.cendrawasih}`}>
-				<div className={styles.hero}>
-					<div className={styles.heroTitle}>
+			<section className={`${contentsStyles.content} ${traditionStyles.cendrawasih}`}>
+				<div className={contentsStyles.hero}>
+					<div className={contentsStyles.heroTitle}>
 						<h2>Cendrawasih Folklore</h2>
 					</div>
-					<div className={styles.heroContent}>
+					<div className={contentsStyles.heroContent}>
 						<p>
 						There once a time, boy named Kweiya. He lives with
 						his mom and his step siblings. His step siblings
