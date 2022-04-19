@@ -17,7 +17,7 @@ const Header = (props) => {
 				</div>
 				<div className={styles["nav-links"]}>
 					<div className={styles["nav-link"]}>
-						<Link to={"/"}>Home</Link>
+						<Link to={"/#"}>Home</Link>
 					</div>
 					<div className={styles["nav-link"]}>
 						<Link to={"/customs"}>Customs</Link>
