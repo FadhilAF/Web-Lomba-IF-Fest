@@ -16,13 +16,13 @@ const Header = (props) => {
 					</Link>
 				</div>
 				<div className={styles["nav-links"]}>
-					<div>
+					<div className={styles["nav-link"]}>
 						<Link to={"/"}>Home</Link>
 					</div>
-					<div>
+					<div className={styles["nav-link"]}>
 						<Link to={"/customs"}>Customs</Link>
 					</div>
-					<div>
+					<div className={styles["nav-link"]}>
 						<Link to={"/culinary"}>Culinary</Link>
 					</div>
 				</div>
